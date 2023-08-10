@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/jhutar-tenant/devfile-sample/devfile-sample@sha256:506b8857a8b456819fd46b07173a2863deeca7464e07ca0eb2700ac44eec4768
         name: my-nodejs
         ports:
         - containerPort: 3001
